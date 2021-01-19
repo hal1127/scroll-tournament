@@ -188,7 +188,7 @@ html::-webkit-scrollbar {
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 250px;
+    width: auto;
   }
 }
 

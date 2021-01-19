@@ -3,13 +3,13 @@
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li :class="'nav-item align-bottom '+topClass">
-          <router-link to="/" class="text-white px-3 pb-3 h6" style="text-decoration: none;">ホーム</router-link>
+          <router-link to="/" class="text-white px-2 pb-3" style="text-decoration: none;">ホーム</router-link>
         </li>
         <li :class="'nav-item align-bottom '+rankClass">
-          <router-link to="/rank" class="text-white px-3 pb-3 h6" style="text-decoration: none;">ランキング</router-link>
+          <router-link to="/rank" class="text-white px-2 pb-3" style="text-decoration: none;">ランキング</router-link>
         </li>
         <li :class="'nav-item align-bottom '+aboutClass">
-          <router-link to="/about" class="text-white px-3 pb-3 h6" style="text-decoration: none;">サイトについて</router-link>
+          <router-link to="/about" class="text-white px-2 pb-3" style="text-decoration: none;">サイトについて</router-link>
         </li>
       </ul>
     </div>

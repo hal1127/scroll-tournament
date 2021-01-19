@@ -33,17 +33,15 @@ export default {
 <style lang="scss">
 
 .youtube {
-  width: 432px;
-  height: 310px;
-  margin: 0 auto;
+  width: auto;
+  margin: 0 1em;
   background: #a1d6e2;
   overflow: hidden;
   border-radius: 10px;
   border: solid 1px #1995ad;
   cursor: pointer;
   .thumbnail {
-    width: 430px;
-    height: 241px;
+    height: 240px;
     border-bottom: solid 1px #1995ad;
     background: #333;
     color: white;
@@ -58,20 +56,9 @@ export default {
 
   @media screen and (max-width: 480px) {
     .youtube {
-      width: 217px;
-      height: 160px;
+      width: auto;
       .thumbnail {
-        width: 215px;
         height: 120px;
-      }
-      h3 {
-        font-size: 0.75rem;
-      }
-      .title {
-        font-size: 0.5rem;
-      }
-      .description {
-        font-size: 0.5rem;
       }
     }
   }
@@ -94,15 +81,15 @@ article {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .heading {
-    font-size: 1rem;
-  }
-  article {
-    margin-bottom: 40px;
-    > p {
-      font-size: 0.75rem;
-    }
-  }
-}
+// @media screen and (max-width: 480px) {
+//   .heading {
+//     font-size: 1rem;
+//   }
+//   article {
+//     margin-bottom: 40px;
+//     > p {
+//       font-size: 0.75rem;
+//     }
+//   }
+// }
 </style>
