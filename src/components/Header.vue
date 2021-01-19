@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand navbar-light pb-0 pt-3 mb-4" style="background-color: #1995ad">
+  <nav class="navbar navbar-expand navbar-light pb-0 pt-3 mb-sm-4" style="background-color: #1995ad">
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li :class="'nav-item align-bottom '+topClass">

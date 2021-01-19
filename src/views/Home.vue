@@ -1,10 +1,10 @@
 <template>
   <div id="home">
     <Header HLight="top" />
-    <div :class="'position-fixed m-1 scroll ' + marginTop">
+    <div :class="'position-fixed p-1 m-1 scroll bg-white rounded ' + marginTop">
       <h1>{{ Math.floor(scroll).toLocaleString()+'px' }}</h1>
     </div>
-    <div :class="'position-fixed m-1 timer ' + marginTop">
+    <div :class="'position-fixed p-1 m-1 timer bg-white rounded ' + marginTop">
       <h1>{{ this.timerInt }}<small class="font-weight-normal">{{ this.timerFloot }}</small></h1>
     </div>
     <div class="container p-3">

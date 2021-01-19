@@ -54,7 +54,7 @@ export default {
   }
 }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 544px) {
     .youtube {
       width: auto;
       .thumbnail {
@@ -81,7 +81,7 @@ article {
   }
 }
 
-// @media screen and (max-width: 480px) {
+// @media screen and (max-width: 544px) {
 //   .heading {
 //     font-size: 1rem;
 //   }
