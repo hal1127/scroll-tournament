@@ -1,24 +1,3 @@
-# scroll-tournament-router
+# スクロール大会
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+スマホでスクロールする速さ基礎ったら面白いんじゃね？と風呂中に思いついた
